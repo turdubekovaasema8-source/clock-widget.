@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Time Widget</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #886969;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .widget {
+            background: #0e0d0d;
+            padding: 30px 50px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            /* border-right: 10px solid #b200d1; */
+         } 
+
+        #time {
+            font-size: 60px;
+            color: #a000d1;
+            margin-bottom: 15px;
+        }
+
+        #date {
+            font-size: 24px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<div class="widget">
+    <div id="time">00:00</div>
+    <div id="date">Дата</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
